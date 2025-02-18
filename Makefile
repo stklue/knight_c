@@ -1,2 +1,2 @@
 all:
-	gcc knight.c -o knight
+	gcc knight.c init.c -o knight
