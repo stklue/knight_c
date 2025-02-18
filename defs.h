@@ -193,15 +193,17 @@ typedef struct
 /* MACROS */
 /* Given a file and rank - return the 120 square resprentation of the 64 square board  */
 #define FR2SQ(f, r) (21 + (f) + ((r) * 10))
-
+#define SQ64(sq120) SQ120_TO_SQ64[sq120] 
 /* GLOBALS */
 /* Represents the 120 and 64 boards respectively */
 extern int SQ120_TO_SQ64[BRD_SQ_NUM];
 extern int SQ64_TO_SQ120[64];
 
 /* FUNCTIONS */
+// init.c
 extern void All_Init();
 
-/* init.c */
+// bitboard.c
+extern void print_bit_board(U64 bb);
 
 #endif
