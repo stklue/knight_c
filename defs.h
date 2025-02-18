@@ -2,6 +2,24 @@
 #ifndef DEFS_H
 #define DEFS_H
 
+#include "stdlib.h"
+
+#ifndef DEBUG
+#define ASSERT(n)
+#else
+#define ASSERT(n) \
+    if (!(n))
+{
+
+    printf("%s - Failed", #n);
+    printf("On %s .", __DATE__);
+    printf("At %s .", __TIME__);
+    printf("In file %s .", __FILE__);
+    printf("At line %d\n", __LINE__);
+    exit(1);
+}
+#endif
+
 typedef unsigned long long U64;
 
 #define NAME "Knight 1.0"
@@ -168,6 +186,8 @@ typedef struct
 
     S_UNDO history[MAXGAMEMOVES];
 
+    int piece_list[13][10];
+
 } S_BOARD;
 
 /* MACROS */
@@ -181,7 +201,6 @@ extern int SQ64_TO_SQ120[64];
 
 /* FUNCTIONS */
 extern void All_Init();
-
 
 /* init.c */
 
