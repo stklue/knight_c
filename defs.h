@@ -191,7 +191,7 @@ typedef struct
 } S_BOARD;
 
 /* MACROS */
-/* Given a file and rank - return the 120 square resprentation of the 64 square board  */
+/* Given a file and rank - return the values for board 64  */
 #define FR2SQ(f, r) (21 + (f) + ((r) * 10))
 #define SQ64(sq120) SQ120_TO_SQ64[sq120] 
 /* GLOBALS */
