@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Feb 20 07:48:01 2025
+# Make data base, printed on Thu Feb 20 14:00:10 2025
 
 # Variables
 
@@ -65,13 +65,11 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/netklue/Projects/knight
 # environment
-POSH_PID = 52
+POSH_PID = 3088
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 POWERLINE_COMMAND = oh-my-posh
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -129,7 +127,7 @@ HOSTTYPE = x86_64
 # automatic
 +F = $(notdir $+)
 # environment
-WSL_INTEROP = /run/WSL/13_interop
+WSL_INTEROP = /run/WSL/3051_interop
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -151,7 +149,7 @@ _ = /home/netklue/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/no
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-27bbac38-b94c-4220-af16-4b6e04bade50.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-e75826ae-7944-4f39-aca1-7705cacde21c.sock
 # environment
 NVM_CD_FLAGS = -q
 # environment
@@ -173,7 +171,7 @@ WSL_DISTRO_NAME = Ubuntu
 # environment
 VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # variable set hash-table stats:
-# Load=81/1024=8%, Rehash=0, Collisions=8/114=7%
+# Load=80/1024=8%, Rehash=0, Collisions=7/113=6%
 
 # Pattern-specific Variable Values
 
@@ -252,6 +250,6 @@ all:
 # strcache performance: lookups = 23 / hit rate = 30%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Thu Feb 20 07:48:01 2025
+# Finished Make data base on Thu Feb 20 14:00:10 2025
 
  

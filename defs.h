@@ -194,11 +194,15 @@ typedef struct
 /* Given a file and rank - return the values for board 64  */
 #define FR2SQ(f, r) (21 + (f) + ((r) * 10))
 #define SQ64(sq120) SQ120_TO_SQ64[sq120] 
+#define clear_bit(bb, sq) ((bb) &= clear_mask[(sq)])
+#define set_bit(bb, sq) ((bb) |= set_mask[(sq)])
+
 /* GLOBALS */
 /* Represents the 120 and 64 boards respectively */
 extern int SQ120_TO_SQ64[BRD_SQ_NUM];
 extern int SQ64_TO_SQ120[64];
-
+extern U64 set_mask[64];
+extern U64 clear_mask[64];
 /* FUNCTIONS */
 // init.c
 extern void All_Init();
