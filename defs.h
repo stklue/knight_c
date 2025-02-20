@@ -205,5 +205,6 @@ extern void All_Init();
 
 // bitboard.c
 extern void print_bit_board(U64 bb);
-
-#endif
+extern int pop_bit(U64 *bb);
+extern int count_bits(U64 b);
+#endif  
