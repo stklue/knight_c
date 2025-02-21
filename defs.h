@@ -137,7 +137,7 @@ enum
     F8,
     G8,
     H8,
-    NO_SQ
+    NO_SQ, OFFBOARD
 };
 enum
 {
@@ -203,6 +203,10 @@ extern int SQ120_TO_SQ64[BRD_SQ_NUM];
 extern int SQ64_TO_SQ120[64];
 extern U64 set_mask[64];
 extern U64 clear_mask[64];
+
+extern U64 piece_keys[13][120];
+extern U64 side_key;
+extern U64 castle_keys[16];
 /* FUNCTIONS */
 // init.c
 extern void All_Init();
@@ -211,4 +215,8 @@ extern void All_Init();
 extern void print_bit_board(U64 bb);
 extern int pop_bit(U64 *bb);
 extern int count_bits(U64 b);
+
+// hashkeys.c
+extern U64 GeneratePosKey(const S_BOARD *pos);
+
 #endif  
