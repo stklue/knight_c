@@ -20,7 +20,6 @@ int main(void) {
     S_BOARD board;
     set_bit(play_bit_board,16);
     print_bit_board(play_bit_board);
-    printf("Gnerated key: %d\n", GeneratePosKey(&board));
     // printf("%d\n", board.hisPly);
 
     return 0;

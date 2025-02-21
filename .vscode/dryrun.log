@@ -1,5 +1,5 @@
-make --dry-run --always-make --keep-going --print-directory
+make --dry-run --keep-going --print-directory
 make: Entering directory '/home/netklue/Projects/knight'
-gcc knight.c init.c bitboard.c -o knight
+gcc knight.c init.c bitboard.c haskeys.c board.c -o knight
 make: Leaving directory '/home/netklue/Projects/knight'
  

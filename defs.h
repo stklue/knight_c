@@ -219,4 +219,7 @@ extern int count_bits(U64 b);
 // hashkeys.c
 extern U64 GeneratePosKey(const S_BOARD *pos);
 
+
+// board.c
+extern void Reset_Board(S_BOARD *pos);
 #endif  

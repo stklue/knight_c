@@ -1,2 +1,2 @@
 all:
-	gcc knight.c init.c bitboard.c -o knight
+	gcc knight.c init.c bitboard.c hashkeys.c board.c -o knight
