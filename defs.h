@@ -32,15 +32,15 @@ enum
     wP,
     wN,
     wB,
-    wK,
-    wQ,
     wR,
+    wQ,
+    wK,
     bP,
     bN,
     bB,
-    bK,
+    bR,
     bQ,
-    bR
+    bK
 };
 enum
 {

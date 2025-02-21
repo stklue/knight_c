@@ -17,16 +17,11 @@ int main(void) {
     // printf("G2 Added:\n\n "); 
     // print_bit_board(play_bit_board);
     
-
-    set_bit(play_bit_board, 61);
-    set_bit(play_bit_board, 1);
-    set_bit(play_bit_board, 2);
-    set_bit(play_bit_board, 8);
-    set_bit(play_bit_board, 10);
-    //   set_bit(play_bit_board, 61);
+    S_BOARD board;
+    set_bit(play_bit_board,16);
     print_bit_board(play_bit_board);
-    clear_bit(play_bit_board, 10);
-    print_bit_board(play_bit_board);
+    printf("Gnerated key: %d\n", GeneratePosKey(&board));
+    // printf("%d\n", board.hisPly);
 
     return 0;
 } 
