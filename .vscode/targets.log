@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Feb 21 20:05:23 2025
+# Make data base, printed on Sat Feb 22 10:47:38 2025
 
 # Variables
 
@@ -65,7 +65,7 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/netklue/Projects/knight
 # environment
-POSH_PID = 3088
+POSH_PID = 53
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
@@ -129,7 +129,7 @@ HOSTTYPE = x86_64
 # automatic
 +F = $(notdir $+)
 # environment
-WSL_INTEROP = /run/WSL/3051_interop
+WSL_INTEROP = /run/WSL/13_interop
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -151,7 +151,7 @@ _ = /home/netklue/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/no
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-e75826ae-7944-4f39-aca1-7705cacde21c.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-714608c1-2e90-4df6-9488-0a44a50737f8.sock
 # environment
 NVM_CD_FLAGS = -q
 # environment
@@ -181,9 +181,9 @@ VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 
 # Directories
 
-# . (device 2080, inode 118628): 12 files, no impossibilities.
+# . (device 2080, inode 118628): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -194,7 +194,7 @@ VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2025-02-21 20:05:08.783918975
+#  Last modified 2025-02-21 20:05:57.823919141
 #  File has been updated.
 #  Successfully updated.
 
@@ -230,7 +230,7 @@ all:
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
 #  recipe to execute (from 'Makefile', line 2):
-	gcc knight.c init.c bitboard.c haskeys.c board.c -o knight
+	gcc knight.c init.c bitboard.c hashkeys.c board.c -o knight
 
 # Not a target:
 .SUFFIXES:
@@ -246,12 +246,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 145 B / avg = 8 B
-# current buf: size = 8162 B / used = 145 B / count = 17 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 152 B / avg = 8 B
+# current buf: size = 8162 B / used = 152 B / count = 18 / avg = 8 B
 
-# strcache performance: lookups = 24 / hit rate = 29%
+# strcache performance: lookups = 25 / hit rate = 28%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/24=0%
-# Finished Make data base on Fri Feb 21 20:05:23 2025
+# Load=18/8192=0%, Rehash=0, Collisions=0/25=0%
+# Finished Make data base on Sat Feb 22 10:47:38 2025
 
  

@@ -25,6 +25,7 @@ typedef unsigned long long U64;
 #define NAME "Knight 1.0"
 #define BRD_SQ_NUM 120 // number of board squars
 #define MAXGAMEMOVES 2048
+#define START_FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
 enum
 {
